@@ -1,0 +1,494 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Raj | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+        rel="stylesheet">
+    <meta name="theme-color" content="#0f172a">
+    <style>
+        .section-title.visible,
+        .about-grid.visible,
+        .skill-card.visible,
+        .project-card.visible,
+        .cert-item.visible,
+        .timeline-item.visible,
+        .blog-card.visible,
+        .skills-banner.visible,
+        .experience-visual.visible {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Ayush Raj Portfolio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="AyushRaj1.pdf" class="btn btn-outline" download>Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero / Introduction -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Ayush Raj</h1>
+            <p class="hero-tagline">B.Tech CSE · Lovely Professional University, Jalandhar · From Bihar</p>
+            <p class="hero-intro">
+                Full-stack web development-focused Computer Science student with experience in building responsive web applications, problem-solving through data structures and algorithms,
+                dedicated to creating efficient, user-friendly solutions.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                <a href="AyushRaj1.pdf" class="btn btn-outline" download="" id="resumeBtn">Download Resume (PDF)</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title visible"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;"><span
+                    class="section-num">01.</span> About Me</h2>
+            <div class="about-grid visible"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                <div class="about-text">
+                    <p>
+                        I am a Computer Science and Engineering student at Lovely Professional University with a strong foundation in <strong>full-stack web development</strong> and
+                        <strong>problem-solving</strong>. I have hands-on experience in building end-to-end web applications
+                        with a focus on clean code, user experience, and efficient algorithms.
+                    </p>
+                    <p>
+                        I work with technologies such as <strong>Python, Java, JavaScript</strong>, <strong>ReactJS, NodeJS</strong>, and databases like
+                        <strong>MySQL and MongoDB</strong> to create dynamic and responsive web solutions. I am passionate
+                        about data structures, algorithm optimization, and collaborative development. I actively solve coding challenges on platforms like LeetCode and CodeChef to strengthen my problem-solving capabilities.
+                    </p>
+                    <ul class="about-highlights">
+                        <li>Full-Stack Web Development</li>
+                        <li>Python, Java, JavaScript</li>
+                        <li>ReactJS &amp; NodeJS</li>
+                        <li>MySQL &amp; MongoDB</li>
+                        <li>Problem-Solving &amp; DSA</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-frame">
+                        <img src="WhatsApp.jpeg" alt="Ayush Raj" class="about-photo" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Technologies -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title visible"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;"><span
+                    class="section-num">02.</span> Skills &amp; Technologies</h2>
+            <p class="section-subtitle">Programming languages, frameworks, and tools I use to build modern web applications.</p>
+            <div class="skills-grid">
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Languages</span>
+                    <h3>Programming Languages</h3>
+                    <p class="skill-desc">Core programming languages for building scalable applications.</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Frameworks</span>
+                    <h3>Frameworks &amp; Libraries</h3>
+                    <p class="skill-desc">Modern frameworks for web development and UI creation.</p>
+                    <ul>
+                        <li>Tailwind CSS</li>
+                        <li>ReactJS</li>
+                        <li>NodeJS</li>
+                        <li>ExpressJS</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Databases</span>
+                    <h3>Database Management</h3>
+                    <p class="skill-desc">Database design and management for web applications.</p>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Tools</span>
+                    <h3>Tools &amp; Platforms</h3>
+                    <p class="skill-desc">Development tools and platforms for collaborative coding.</p>
+                    <ul>
+                        <li>Git</li>
+                        <li>Xampp</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Soft Skills</span>
+                    <h3>Professional Skills</h3>
+                    <p class="skill-desc">Essential interpersonal and problem-solving abilities.</p>
+                    <ul>
+                        <li>Problem-Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies -->
+    <section class="section technologies" id="technologies">
+        <div class="container">
+            <h2 class="section-title visible"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;"><span
+                    class="section-num">03.</span> Technologies</h2>
+            <p class="section-subtitle">Technologies and tools I use for building modern web applications.
+</p>
+            <div class="skills-grid">
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Languages</span>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Frontend</span>
+                    <h3>Frontend Frameworks</h3>
+                    <ul>
+                        <li>ReactJS</li>
+                        <li>Tailwind CSS</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Backend</span>
+                    <h3>Backend Technologies</h3>
+                    <ul>
+                        <li>NodeJS</li>
+                        <li>ExpressJS</li>
+                        <li>PHP</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Databases</span>
+                    <h3>Data Management</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Xampp</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Version Control</span>
+                    <h3>Collaboration Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+                <div class="skill-card visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <span class="skill-label">Data Structures</span>
+                    <h3>Core Concepts</h3>
+                    <ul>
+                        <li>Trie Data Structure</li>
+                        <li>Algorithm Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-num">04.</span> Projects
+            </h2>
+
+            <p class="section-subtitle">
+                Selected work demonstrating practical application of full-stack web development and problem-solving skills.
+            </p>
+
+            <!-- SINGLE projects-list wrapper -->
+            <div class="projects-list">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-label">Featured Project</p>
+                        <h3>Keyword Auto-Suggestion using Trie</h3>
+                        <p class="project-desc">
+                            Engineered a Trie-based auto-completion mechanism in Java to deliver fast prefix-based keyword suggestions. Executed core Trie functionalities including insertion, lookup, and prefix matching to achieve O(k) search complexity. Crafted an interactive Java Swing interface that dynamically updates recommendations as users type, improving user experience.
+                        </p>
+
+                        <ul class="project-tech">
+                            <li>Java</li>
+                            <li>Java Swing</li>
+                            <li>Trie Data Structure</li>
+                        </ul>
+
+                        <div class="project-links">
+                            <a href="https://github.com/rajayush03" target="_blank" rel="noopener">Source Code</a>
+                        </div>
+                    </div>
+                </article>
+                 <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <p class="project-label">Featured Project</p>
+                        <h3>Online Medical Appointment System</h3>
+                        <p class="project-desc">
+                            Developed a centralized web dashboard integrated with CCTV camera feeds to provide real-time crowd monitoring and site supervision. Implemented modules for crowd-density analysis, unusual activity detection, and worker compliance tracking to improve operational efficiency. Optimized system performance by improving API response time, data processing pipeline, and dashboard UI/UX.
+                        </p>
+
+                        <ul class="project-tech">
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <div class="project-links">
+                            <a href="https://github.com/rajayush03" target="_blank" rel="noopener">Source Code</a>
+                        </div>
+                    </div>
+                </article>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates & Courses -->
+    <section class="section certificates" id="certificates">
+        <div class="container">
+            <h2 class="section-title"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;"><span
+                    class="section-num">05.</span> Certificates &amp; Courses</h2>
+            <p class="section-subtitle">Formal learning and certifications that support my technical foundation and
+                continuous growth.</p>
+            <div class="cert-list">
+                <div class="cert-item"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="cert-details">
+                        <h3>Legacy Responsive Web Design V8</h3>
+                        <p>Showcasing skills in HTML, CSS, and basic JavaScript for building responsive, mobile-friendly websites. Completed July 2025.</p>
+                        <a href="https://www.freecodecamp.org" target="_blank"
+                            rel="noopener" class="btn btn-outline cert-view-btn">View Certificate</a>
+                    </div>
+                </div>
+                <div class="cert-item"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="cert-details">
+                        <h3>Mastering Data Structure</h3>
+                        <p>Comprehensive training covering core data structures including arrays, linked lists, stacks, queues, trees, graphs, heaps, and hash tables. Completed July 2025 at Lovely Professional University.</p>
+                    </div>
+                </div>
+                <div class="cert-item"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="cert-details">
+                        <h3>4-Star Rating on Hacker Rank</h3>
+                        <p>Earned 4-Star Rating on Hacker Rank in Python, demonstrating strong command over core programming concepts and problem-solving skills. Achieved January 2024.</p>
+                    </div>
+                </div>
+                <div class="cert-item"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="cert-details">
+                        <h3>250+ Coding Questions Solved</h3>
+                        <p>Solved 250+ coding questions across platforms like LeetCode, CodeChef, and CodeForces, strengthening problem-solving and algorithmic skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section experience" id="education">
+        <div class="container">
+            <h2 class="section-title visible"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;"><span
+                    class="section-num">06.</span> Education</h2>
+            <p class="section-subtitle">Academic journey and hands-on experience that shape my approach to software
+                development.</p>
+            <div class="timeline">
+                <div class="timeline-item visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology - Computer Science &amp; Engineering</h3>
+                        <p class="timeline-meta">Lovely Professional University, Jalandhar, Punjab | Aug 2023 - Present | CGPA: 5.95</p>
+                    </div>
+                </div>
+                <div class="timeline-item visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <p class="timeline-meta">Delhi Public School Jubilee, Motihari, Bihar | Apr 2021 - Mar 2023 | Percentage: 70.40%</p>
+                    </div>
+                </div>
+                <div class="timeline-item visible"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Matriculation</h3>
+                        <p class="timeline-meta">St. Francis Academy, Motihari, Bihar | Apr 2019 - Mar 2021 | Percentage: 82.60%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs -->
+    <section class="section blogs" id="blogs">
+        <div class="container">
+            <h2 class="section-title visible"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;"><span
+                    class="section-num">07.</span> Blogs &amp; Writing</h2>
+            <p class="section-subtitle">Articles and reflections on technical learning, best practices, and experiences
+                in software development.</p>
+            <div class="blogs-grid">
+                <a href="#" class="blog-card visible" target="_blank" rel="noopener"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="blog-card-body">
+                        <h3>Why Data Structures &amp; Algorithms Matter for Every Developer</h3>
+                        <p>An overview of how a strong DSA foundation improves code quality, system design thinking, and
+                            interview readiness—with practical takeaways for students and early-career developers.</p>
+                        <span class="blog-link">Read more →</span>
+                    </div>
+                </a>
+                <a href="#" class="blog-card visible" target="_blank" rel="noopener"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="blog-card-body">
+                        <h3>My Learning Path in Web Development: From Basics to Projects</h3>
+                        <p>A structured account of moving from HTML/CSS/JS fundamentals to building full
+                            projects—including resources, milestones, and lessons that accelerated my progress.</p>
+                        <span class="blog-link">Read more →</span>
+                    </div>
+                </a>
+                <a href="#" class="blog-card visible" target="_blank" rel="noopener"
+                    style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="blog-card-body">
+                        <h3>Taking the First Steps in Open Source Contribution</h3>
+                        <p>How I identified beginner-friendly projects, understood contribution workflows, and overcame
+                            initial hurdles—a guide for others looking to start contributing to open source.</p>
+                        <span class="blog-link">Read more →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title visible"
+                style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;"><span
+                    class="section-num">08.</span> Get In Touch</h2>
+            <p class="contact-intro">
+                I am actively seeking internship opportunities, project collaborations, and roles where I can apply my
+                skills in
+                software development and problem solving. Whether you have a role in mind, a project idea, or simply
+                want to connect—
+                I would be glad to hear from you. I aim to respond to all inquiries in a timely manner.
+            </p>
+            <a href="AyushRaj1.pdf" class="btn btn-primary btn-resume" download="" id="resumeBtnFooter">Download
+                Resume (PDF)</a>
+            <div class="contact-links">
+                <a href="mailto:arajstfrancis87899@gmail.com" class="contact-link" aria-label="Email">
+                    <span class="contact-link-label">Email</span> arajstfrancis87899@gmail.com
+                </a>
+                <a href="tel:+918789959425" class="contact-link" aria-label="Phone">
+                    <span class="contact-link-label">Phone</span> +91-8789959425
+                </a>
+                <a href="https://www.linkedin.com/in/ayush-raj003" target="_blank" rel="noopener" class="contact-link"
+                    aria-label="LinkedIn">
+                    <span class="contact-link-label">LinkedIn</span> ayush-raj003
+                </a>
+                <a href="https://github.com/rajayush03" target="_blank" rel="noopener" class="contact-link"
+                    aria-label="GitHub">
+                    <span class="contact-link-label">GitHub</span> rajayush03
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener" class="contact-link"
+                    aria-label="Twitter">
+                    <span class="contact-link-label">Twitter</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Designed &amp; Built by <strong>Ayush Raj</strong></p>
+        <p class="footer-note">© 2025 · Lovely Professional University · Bihar · Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
